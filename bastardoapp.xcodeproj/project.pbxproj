@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F114EC9F20A8CDD70080436C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F114EC9E20A8CDD70080436C /* AppDelegate.swift */; };
+		F114ECA120A8CDD70080436C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F114ECA020A8CDD70080436C /* ViewController.swift */; };
+		F114ECA420A8CDD70080436C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F114ECA220A8CDD70080436C /* Main.storyboard */; };
+		F114ECA720A8CDD70080436C /* bastardoapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F114ECA520A8CDD70080436C /* bastardoapp.xcdatamodeld */; };
+		F114ECA920A8CDD70080436C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F114ECA820A8CDD70080436C /* Assets.xcassets */; };
+		F114ECAC20A8CDD70080436C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F114ECAA20A8CDD70080436C /* LaunchScreen.storyboard */; };
+		F114ECB720A8CDD80080436C /* bastardoappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F114ECB620A8CDD80080436C /* bastardoappTests.swift */; };
+		F114ECC220A8CDD80080436C /* bastardoappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F114ECC120A8CDD80080436C /* bastardoappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F114ECB320A8CDD80080436C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F114EC9320A8CDD70080436C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F114EC9A20A8CDD70080436C;
+			remoteInfo = bastardoapp;
+		};
+		F114ECBE20A8CDD80080436C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F114EC9320A8CDD70080436C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F114EC9A20A8CDD70080436C;
+			remoteInfo = bastardoapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F114EC9B20A8CDD70080436C /* bastardoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bastardoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F114EC9E20A8CDD70080436C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F114ECA020A8CDD70080436C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F114ECA320A8CDD70080436C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F114ECA620A8CDD70080436C /* bastardoapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bastardoapp.xcdatamodel; sourceTree = "<group>"; };
+		F114ECA820A8CDD70080436C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F114ECAB20A8CDD70080436C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F114ECAD20A8CDD70080436C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F114ECB220A8CDD80080436C /* bastardoappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bastardoappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F114ECB620A8CDD80080436C /* bastardoappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bastardoappTests.swift; sourceTree = "<group>"; };
+		F114ECB820A8CDD80080436C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F114ECBD20A8CDD80080436C /* bastardoappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bastardoappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F114ECC120A8CDD80080436C /* bastardoappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bastardoappUITests.swift; sourceTree = "<group>"; };
+		F114ECC320A8CDD80080436C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F114EC9820A8CDD70080436C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F114ECAF20A8CDD80080436C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F114ECBA20A8CDD80080436C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F114EC9220A8CDD70080436C = {
+			isa = PBXGroup;
+			children = (
+				F114EC9D20A8CDD70080436C /* bastardoapp */,
+				F114ECB520A8CDD80080436C /* bastardoappTests */,
+				F114ECC020A8CDD80080436C /* bastardoappUITests */,
+				F114EC9C20A8CDD70080436C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F114EC9C20A8CDD70080436C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F114EC9B20A8CDD70080436C /* bastardoapp.app */,
+				F114ECB220A8CDD80080436C /* bastardoappTests.xctest */,
+				F114ECBD20A8CDD80080436C /* bastardoappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F114EC9D20A8CDD70080436C /* bastardoapp */ = {
+			isa = PBXGroup;
+			children = (
+				F114EC9E20A8CDD70080436C /* AppDelegate.swift */,
+				F114ECA020A8CDD70080436C /* ViewController.swift */,
+				F114ECA220A8CDD70080436C /* Main.storyboard */,
+				F114ECA820A8CDD70080436C /* Assets.xcassets */,
+				F114ECAA20A8CDD70080436C /* LaunchScreen.storyboard */,
+				F114ECAD20A8CDD70080436C /* Info.plist */,
+				F114ECA520A8CDD70080436C /* bastardoapp.xcdatamodeld */,
+			);
+			path = bastardoapp;
+			sourceTree = "<group>";
+		};
+		F114ECB520A8CDD80080436C /* bastardoappTests */ = {
+			isa = PBXGroup;
+			children = (
+				F114ECB620A8CDD80080436C /* bastardoappTests.swift */,
+				F114ECB820A8CDD80080436C /* Info.plist */,
+			);
+			path = bastardoappTests;
+			sourceTree = "<group>";
+		};
+		F114ECC020A8CDD80080436C /* bastardoappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F114ECC120A8CDD80080436C /* bastardoappUITests.swift */,
+				F114ECC320A8CDD80080436C /* Info.plist */,
+			);
+			path = bastardoappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F114EC9A20A8CDD70080436C /* bastardoapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F114ECC620A8CDD80080436C /* Build configuration list for PBXNativeTarget "bastardoapp" */;
+			buildPhases = (
+				F114EC9720A8CDD70080436C /* Sources */,
+				F114EC9820A8CDD70080436C /* Frameworks */,
+				F114EC9920A8CDD70080436C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bastardoapp;
+			productName = bastardoapp;
+			productReference = F114EC9B20A8CDD70080436C /* bastardoapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F114ECB120A8CDD80080436C /* bastardoappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F114ECC920A8CDD80080436C /* Build configuration list for PBXNativeTarget "bastardoappTests" */;
+			buildPhases = (
+				F114ECAE20A8CDD80080436C /* Sources */,
+				F114ECAF20A8CDD80080436C /* Frameworks */,
+				F114ECB020A8CDD80080436C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F114ECB420A8CDD80080436C /* PBXTargetDependency */,
+			);
+			name = bastardoappTests;
+			productName = bastardoappTests;
+			productReference = F114ECB220A8CDD80080436C /* bastardoappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F114ECBC20A8CDD80080436C /* bastardoappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F114ECCC20A8CDD80080436C /* Build configuration list for PBXNativeTarget "bastardoappUITests" */;
+			buildPhases = (
+				F114ECB920A8CDD80080436C /* Sources */,
+				F114ECBA20A8CDD80080436C /* Frameworks */,
+				F114ECBB20A8CDD80080436C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F114ECBF20A8CDD80080436C /* PBXTargetDependency */,
+			);
+			name = bastardoappUITests;
+			productName = bastardoappUITests;
+			productReference = F114ECBD20A8CDD80080436C /* bastardoappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F114EC9320A8CDD70080436C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = diego;
+				TargetAttributes = {
+					F114EC9A20A8CDD70080436C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F114ECB120A8CDD80080436C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F114EC9A20A8CDD70080436C;
+					};
+					F114ECBC20A8CDD80080436C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F114EC9A20A8CDD70080436C;
+					};
+				};
+			};
+			buildConfigurationList = F114EC9620A8CDD70080436C /* Build configuration list for PBXProject "bastardoapp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F114EC9220A8CDD70080436C;
+			productRefGroup = F114EC9C20A8CDD70080436C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F114EC9A20A8CDD70080436C /* bastardoapp */,
+				F114ECB120A8CDD80080436C /* bastardoappTests */,
+				F114ECBC20A8CDD80080436C /* bastardoappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F114EC9920A8CDD70080436C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F114ECAC20A8CDD70080436C /* LaunchScreen.storyboard in Resources */,
+				F114ECA920A8CDD70080436C /* Assets.xcassets in Resources */,
+				F114ECA420A8CDD70080436C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F114ECB020A8CDD80080436C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F114ECBB20A8CDD80080436C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F114EC9720A8CDD70080436C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F114ECA720A8CDD70080436C /* bastardoapp.xcdatamodeld in Sources */,
+				F114ECA120A8CDD70080436C /* ViewController.swift in Sources */,
+				F114EC9F20A8CDD70080436C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F114ECAE20A8CDD80080436C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F114ECB720A8CDD80080436C /* bastardoappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F114ECB920A8CDD80080436C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F114ECC220A8CDD80080436C /* bastardoappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F114ECB420A8CDD80080436C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F114EC9A20A8CDD70080436C /* bastardoapp */;
+			targetProxy = F114ECB320A8CDD80080436C /* PBXContainerItemProxy */;
+		};
+		F114ECBF20A8CDD80080436C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F114EC9A20A8CDD70080436C /* bastardoapp */;
+			targetProxy = F114ECBE20A8CDD80080436C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F114ECA220A8CDD70080436C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F114ECA320A8CDD70080436C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F114ECAA20A8CDD70080436C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F114ECAB20A8CDD70080436C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F114ECC420A8CDD80080436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F114ECC520A8CDD80080436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F114ECC720A8CDD80080436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JGRCHFGFN;
+				INFOPLIST_FILE = bastardoapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upiita.bastardoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F114ECC820A8CDD80080436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JGRCHFGFN;
+				INFOPLIST_FILE = bastardoapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upiita.bastardoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F114ECCA20A8CDD80080436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JGRCHFGFN;
+				INFOPLIST_FILE = bastardoappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upiita.bastardoappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bastardoapp.app/bastardoapp";
+			};
+			name = Debug;
+		};
+		F114ECCB20A8CDD80080436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JGRCHFGFN;
+				INFOPLIST_FILE = bastardoappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upiita.bastardoappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bastardoapp.app/bastardoapp";
+			};
+			name = Release;
+		};
+		F114ECCD20A8CDD80080436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JGRCHFGFN;
+				INFOPLIST_FILE = bastardoappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upiita.bastardoappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bastardoapp;
+			};
+			name = Debug;
+		};
+		F114ECCE20A8CDD80080436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JGRCHFGFN;
+				INFOPLIST_FILE = bastardoappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upiita.bastardoappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bastardoapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F114EC9620A8CDD70080436C /* Build configuration list for PBXProject "bastardoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F114ECC420A8CDD80080436C /* Debug */,
+				F114ECC520A8CDD80080436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F114ECC620A8CDD80080436C /* Build configuration list for PBXNativeTarget "bastardoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F114ECC720A8CDD80080436C /* Debug */,
+				F114ECC820A8CDD80080436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F114ECC920A8CDD80080436C /* Build configuration list for PBXNativeTarget "bastardoappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F114ECCA20A8CDD80080436C /* Debug */,
+				F114ECCB20A8CDD80080436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F114ECCC20A8CDD80080436C /* Build configuration list for PBXNativeTarget "bastardoappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F114ECCD20A8CDD80080436C /* Debug */,
+				F114ECCE20A8CDD80080436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F114ECA520A8CDD70080436C /* bastardoapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F114ECA620A8CDD70080436C /* bastardoapp.xcdatamodel */,
+			);
+			currentVersion = F114ECA620A8CDD70080436C /* bastardoapp.xcdatamodel */;
+			path = bastardoapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F114EC9320A8CDD70080436C /* Project object */;
+}
